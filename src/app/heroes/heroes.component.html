@@ -1,0 +1,10 @@
+<!-- <h2>{{hero.name}} Details</h2>
+<div><span>id: </span>{{hero.id}}</div>
+## Pipes are good way to format string!!
+<div><span>name: </span>{{hero.name|uppercase}}</div> -->
+
+<div>
+    <label for="name">Hero name: </label>
+    <!-- ngModel is a two ways binding syntax in angular -->
+    <input id="name" [(ngModel)]="hero.name" placeholder="name">
+</div>
